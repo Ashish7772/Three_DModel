@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
 
     private var localModel = "Blaze.glb"
 
-    private var sensorRotation = MutableStateFlow(Quaternion.axisAngle(Vector3(0f, 0f, 0f), 0f))_
+    private var sensorRotation = MutableStateFlow(Quaternion.axisAngle(Vector3(0f, 0f, 0f), 0f))
 //    private lateinit var  sensorRotation: MutableStateFlow<Quaternion>
 
     private lateinit var sensorManager: SensorManager
